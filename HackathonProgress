@@ -1,0 +1,38 @@
+Track 1:
+
+- Create Webpage to summarize challenge and share with interested team Members
+    - CredLancer featuring ZK Credentials Protocol [Webpage](https://credlancer.my.canva.site/) Password: 184285
+    - Will work to continue updating as we seek open collaboration
+- Created this Notion Page to onboard developers
+    - Notion Page [LINK](https://www.notion.so/CredLancer_Starknet-1-0d006430a04643f8b4d73f65df60738e)
+    - Will duplicate this page and add developer database for document form onboard
+    - Will work to make the document clear and answer all questions
+- Defined which area we want to focus on to provide for the CredLancer Product
+- We have researched the basics of the ZK Framework needed to run verification
+- Identified similar project that can be emulated with Starknet Tools
+- Started Visual Image for comparison of ZK elements  [FIGJAM Link](https://www.figma.com/file/1wg8RE9yEtPFfGelYk6tux/CredLancer_Starknet?node-id=732%3A467&t=VyelRc0NjUDl8QFn-0)
+
+Track 2:
+
+- Determined more research and digging into what will features will become available to make this possible for non-native Starknet projects to also incorporate a ZK Credentials Protocol Layer
+- Recruited members to contribute and continue working on this use case
+
+Track 3:
+- Created Wireframe for the CredLancer Product Figma File
+- Onboarded Members and Defined the scope of work for a MVP
+    - Will work to fill out [Developer Team Details](https://www.notion.so/CredLancer_Starknet-1-0d006430a04643f8b4d73f65df60738e)
+- Created Visual Image for comparison  [FIGJAM Link](https://www.figma.com/file/1wg8RE9yEtPFfGelYk6tux/CredLancer_Starknet?node-id=732%3A467&t=VyelRc0NjUDl8QFn-0)
+    - Will work to make the document clear and answer all questions
+- Created Github Repo for Credlancer_Starkware
+    - [Repo Link](https://github.com/captainahab0x/CredLancer_Starknet)
+- Added Relevant Existing tools to the Repo
+    - [Tools ALL](https://github.com/captainahab0x/CredLancer_Starknet/tree/Tools-ALL) (Starknet Id Identity Minter, API for IPFS Storage Files)
+- Added Project Management Board with specific tasks for each member
+    - [Project Board](https://github.com/users/captainahab0x/projects/2)
+- Add current onboarded members and began assigning to departments
+    - Will work to add specific dates for running Agile Scrum Sprints and creating open framework for new contributors to join
+        - Website for Simple Challenge Topic
+        - Notion Document with Links and Detailed Information
+        - Figma Jam for Visual Representation of architecture
+        - Github Repo
+            - Github Project for Scrum Project Management
