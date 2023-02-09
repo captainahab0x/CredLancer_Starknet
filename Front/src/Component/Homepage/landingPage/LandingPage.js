@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "../../Commun/Header/header";
+import Footer from "../../Commun/Footer/footer";
+import Cards from "../Cards/Cards";
 import "./LandingPage.css"
 
 const   LandingPage = () => {
@@ -8,7 +10,7 @@ const   LandingPage = () => {
         <Header/>
         <div className='hero' >
         <div className='container_main'> 
-        <div className="Sub_main_container" style={{width: 'fit-content'}} >
+        <div className="Sub_main_container" style={{width: 'fit-content', margin: '30px 30px 0px 30px'}} >
         <button className='btn1' style={{ padding: '10px 15px' }}>
                   Create a Quest
             </button>
@@ -33,8 +35,11 @@ const   LandingPage = () => {
           <p><span style={{color: '#3B2095'}}>Interoperable</span></p>
           </div>
         </div>
+        <Cards/>
         </div>
+  
       </div>
+      <Footer/>
       </>
     )
 }

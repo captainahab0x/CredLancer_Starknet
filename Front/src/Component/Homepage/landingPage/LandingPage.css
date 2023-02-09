@@ -5,15 +5,15 @@
     height: 100%;
     
     background-image: url("../../../../public/Images/Planete.svg");
-    background-size: 50% 100%;
-    background-position: right -120px;
+    background-size: 40% 100%;
+    background-position: right -100px;
     background-repeat: no-repeat;
     place-items: left;
     align-items: flex-start;
     text-align: center;
     overflow: hidden;
     padding: 0px;
-    gap : 0px;
+    gap : 90px;
     
 }
 
@@ -30,38 +30,38 @@
 
 .container3{
     display: flex;
-    width: 60%;
+    width: 70%;
     place-items: left;
-    height: 50%;
+    height: 1000px;
+    font-size: 25px;
     align-items: center;
     margin-top: 80px;
 }
 
 .block1 { 
     width: 100%;
-    height: 30%;
+    height: fit-content;
 
     flex: 1;
     align-self: flex-start;
 }
 .block2 {
     width: 100%;
-    height: 30%;
+    height: fit-content;
 
     flex: 1;
     align-self: center;
 }
 .block3 {
     width: 100%;
-    height: 30%;
-
+    height: fit-content;
     flex: 1;
     align-self: flex-end;
 }
 .Sub_main_container{
     display: flex;
     flex-direction: row;
-    margin: 30px 30px 30px 30px;
+    margin: 0px 30px 0px 30px;
     width: 60%;
     justify-content: space-between;
     font-size: 20px;
@@ -70,36 +70,59 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1120px) {
+.text {
+    display: flex;
+    width: 70%;
+    background-color: aqua;
+}
+
+@media screen and (max-width: 1820px) {
     .container_main {
-        background-size: 75% 100%;
-        background-position: right -120px;
+        background-size: 65% 100%;
+        background-position: right -490px;
     }
 
+  }
+
+@media screen and (max-width: 1020px) {
+    .container_main{ 
+      gap: 20px;
+  }
+  .container3{
+    height: 650px;
+}
+.container_main {
+    background-size: 65% 100%;
+    background-position: right -790px;
+}
+  
   }
 
   @media screen and (max-width: 800px) {
     .container_main {
-        background-size: 85% 100%;
-        background-position: right -120px;
+        background-size: 80% 100%;
+        background-position: right -790px;
     }
 
   }
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 520px) {
     .container3 {
         width: 90%;
     }
     .container_main {
         background-size: 95% 100%;
-        background-position: right 0px;
+        background-position: right -790px;
     }
 
   }
   @media screen and (max-width: 400px) {
     .container3 {
-        width: 90%;
+        width: 95%;
 
+    }
+    .Sub_main_container{
+        width: 75%;
     }
 
   }
