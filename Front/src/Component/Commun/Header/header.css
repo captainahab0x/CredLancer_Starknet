@@ -22,9 +22,7 @@
   .btn1 {
     margin: 10px;
     width: fit-content;
-    padding: 0px 10px;
-    border-radius: 0px;
-      
+    padding: 0px 10px;  
   }
 
 .testt {
@@ -34,7 +32,7 @@
   padding: 0px;
 
 }
-  button {
+  header button {
     display: flex;
     justify-content: right;
     width: fit-content;
@@ -81,7 +79,7 @@
   }
 
 
-  button:hover {
+  header button:hover {
     color: rgba(113, 220, 204, 1);
     box-shadow: -8px 3px 5px 2px rgba(0, 0, 0, 0.9);
     margin-top: 12px;
@@ -95,6 +93,8 @@
 
   .Search {
     display: flex;
+    height: 30px;
+    align-items: center;
     justify-content: space-between;
     width: 30%;
     background-color: #E8EDF6;

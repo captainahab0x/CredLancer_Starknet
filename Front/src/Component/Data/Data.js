@@ -43,4 +43,51 @@ export const nav = [
         hours: "300",
         path: "/Services",
     },
+    {
+        text: "Backend",
+        issue: "developer DAO",
+        Skills: "Node Js, Next Js",
+        hours: "300",
+        path: "/Services",
+    },
+    {
+        text: "Manager",
+        issue: "developer DAO",
+        Skills: "Node Js, Next Js",
+        hours: "300",
+        path: "/Services",
+    },
+  ]
+
+  export const Questcards = [
+    {
+        file: "25",
+        title: "Project Quests",
+        img: "./Images/ImgQuest.svg",
+        path: "/",
+    },
+    {
+        file: "10",
+        title: "Onboarding Quests",
+        img: "./Images/ImgQuest2.svg",
+        path: "/About",
+    },
+    {
+        file: "57",
+        title: "Engagement Quests",
+        img: "./Images/ImgQuest1.svg",
+        path: "/Services",
+    },
+       {
+        file: "76",
+        title: "developer DAO",
+        img: "./Images/ImgQuest4.svg",
+        path: "/Services",
+    },
+    {
+        file: "29",
+        title: "developer DAO",
+        img: "./Images/ImgQuest.svg",
+        path: "/Services",
+    },
   ]
