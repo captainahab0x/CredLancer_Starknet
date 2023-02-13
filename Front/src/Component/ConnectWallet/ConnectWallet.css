@@ -1,0 +1,11 @@
+.bgd{
+	position: absolute;
+	width: 1938px;
+	height: 4049.35px;
+	left: 1889.92px;
+	top: 3980.3px;
+
+	background: linear-gradient(180deg, rgba(114, 220, 204, 0.88) 9.38%, rgba(125, 24, 194, 0.88) 42.19%, rgba(125, 24, 194, 0.88) 56.77%, rgba(50, 25, 117, 0.88) 84.37%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transform: rotate(-179.49deg);
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import  "./header.css"
+import  "./header.css";
+import ConnectWallet from "../../ConnectWallet/ConnectWallet"
 
 const   Header = () => {
     return (
@@ -16,7 +17,7 @@ const   Header = () => {
                 #
               </div>
                 <div className='button testt'>
-                <Link to={"/ConnectWallet"}><button className='btn1'>Join us</button></Link>
+                <Link to={ConnectWallet}><button className='btn1'>Join us</button></Link>
               </div>
             </div>
           </header>
