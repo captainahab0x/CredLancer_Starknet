@@ -10,8 +10,24 @@ const	ConnectWallet = () => {
 		<>
 		<Header/>
 		<div className="bgd">
+			<div className="container_main">
+				<div className="rectangle2">
+					<div className="title2"></div>
+				</div>
+				<div className="rectangle1">
+					<div className="title">
+						<h1>Connect your wallet</h1>
+					</div>
+					<div className="rectangle3">
+						<h1 id="welcome">Welcome to Credlancer</h1>
+						<button id="discord">import from discord</button>
+					</div>
+				</div>
+			</div>
 		</div>
-		<Footer/>
+		<div className="Footer1">
+			<Footer/>
+		</div>
 		</>
 		)
 	}
