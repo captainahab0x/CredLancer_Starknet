@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle, faFile } from '@fortawesome/free-regular-svg-icons';
 
 export const Container = styled.div`
   display: flex;
@@ -6,8 +8,9 @@ export const Container = styled.div`
   justify-content: start;
   align-items: center;
   height: Hug(300px);
-  width: 100%;
+  width: 80%;
   color: #fff;
+  border: 7px solid rgb(0, 0, 0);
   margin: 0px;
   font-size: 1em;
 `;
@@ -16,11 +19,10 @@ export const SubDiv = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-height: 50px;
+height: 40px;
 width: 100%;
-background-color: #E8EDF6;
+background-color: #000000;
 color: #fff;
-padding: 0 0px;
 font-size: 1em;
 `;
 
@@ -29,8 +31,9 @@ display: flex;
 justify-content: start;
 align-items: center;
 height: 25px;
-width: 80%;
-color: #321975;
+gap: 5px;
+width: Hug(100p);
+color: #FFFFFF;
 margin: 0 0px 0px 10px;
 font-size: 13px;
 `;
@@ -39,9 +42,9 @@ export const RightDiv = styled.div`
 display: flex;
 justify-content:end;
 align-items: center;
-height: 25px;
-width: 80%;
-color: #321975;
+height: Hug(100px);
+width: Hug(100px);
+color: #FFFFFF;
 margin: 0 10px 0px 0px;
 font-size: 13xpx;
 `;
@@ -54,7 +57,8 @@ height: Hug(350px);
 width: 100%;
 background-color: #E8EDF6;
 color: #C7CA3C;
-padding: 0px 0px 3px 0px;
+background-color: #CE4CDF;
+padding: 15px 15px 15px 15px;
 font-size: 10px;
 `;
 
@@ -70,19 +74,17 @@ font-size: 10px;
 `;
 
 
-function Item({ Children, titre, IMG}) {
+function Video({IMG}) {
     return (
         <Container>
             <SubDiv>
-                <LeftDiv>{Children} FIL</LeftDiv>
-                <RightDiv>|   GMT</RightDiv>
+                <LeftDiv><FontAwesomeIcon icon={faCircle} /><FontAwesomeIcon icon={faCircle} /><FontAwesomeIcon icon={faCircle} /></LeftDiv>
+                <div>Video intro</div>
+                <RightDiv><FontAwesomeIcon icon={faFile} /></RightDiv>
             </SubDiv>
-            <ImgDiv><img style={{width: '98%', height:'auto'}} src={IMG} alt='' /></ImgDiv>
-            <Titre>
-                <h2>{titre}</h2>
-            </Titre>
+            <ImgDiv><img style={{width: '98%', height:'auto', border: '1px solid rgb(0, 0, 0)'}} src={IMG} alt='' /></ImgDiv>
         </Container>
     );
   }
   
-  export default Item;
+  export default Video;

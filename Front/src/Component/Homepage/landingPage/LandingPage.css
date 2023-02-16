@@ -116,7 +116,7 @@
 }
 .container_main {
     background-size: 65% 100%;
-    background-position: right -1050px;
+    background-position: right -750px;
 }
   
   }
@@ -124,7 +124,7 @@
   @media screen and (max-width: 800px) {
     .container_main {
         background-size: 80% 100%;
-        background-position: right -1050px;
+        background-position: right -850px;
     }
 
   }
@@ -135,7 +135,7 @@
     }
     .container_main {
         background-size: 95% 100%;
-        background-position: right -1090px;
+        background-position: right -890px;
     }
 
   }
