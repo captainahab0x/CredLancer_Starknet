@@ -1,7 +1,6 @@
 
    
    .Appp {
-       display: flex;
        align-items: center;
        flex-direction: column;
        margin: 0px 50px 0px 50px;
@@ -9,6 +8,15 @@
        height: Hug(755px);
    }
    
+   .Appp .slick-slide > div {
+    display: grid;
+    width: 90%;
+    margin-top: 0px;
+    margin: auto;
+    padding-bottom: 0px;
+    height: Hug(300px);
+    
+  }
 .Prez{
     display: grid;
     width: 80%;
@@ -31,7 +39,20 @@
     margin: 0 0px;
     font-size: 1em;
 }
-
+.Appp .slick-prev, .Appp .slick-next {
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    height: 45px;
+    width: 35px; /* largeur de la flèche */
+    
+  }
+  
+  .Appp .slick-next:before,   .Appp .slick-prev:before {
+    font-family: "slick"; /* police de la flèche */
+    font-size: 34px;
+    color: #ff00ff;
+  }
 .SubPrez button {
     display: flex;
     align-items: center;

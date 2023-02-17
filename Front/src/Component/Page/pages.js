@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Header from "../Commun/Header/header";
-import Footer from "../Commun/Footer/footer";
+import LancerProfile from "../LancerProfile/LancerProfile";
 import Home from "../Homepage/Home";
 
 const Page = () => {
@@ -9,8 +8,7 @@ const Page = () => {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/Footer" element={<Footer/>}/>
-        <Route path="/Header" element={<Header/>}/>
+        <Route path="/LancerProfile" element={<LancerProfile/>}/>
       </Routes>
       </BrowserRouter>
     </div>

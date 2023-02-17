@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import  "./header.css"
 
-const   Header = () => {
+const   Header = (props) => {
+  const buttonText = props.buttonText;
     return (
         <>
           <header>
             <div className='container flex test'>
               <div className='logo'>
-                <img src='./Images/LogoCC.svg' alt='' />
+                <Link to={"/"} ><img src='./Images/LogoCC.svg' alt='' /></Link>
               </div>
               <div className="Search">
                 .
@@ -16,7 +17,7 @@ const   Header = () => {
                 #
               </div>
                 <div className='button testt'>
-                <Link to={"/ConnectWallet"}><button className='btn1'>Join us</button></Link>
+                <Link to={"/ConnectWallet"}><button className='btn1'>{buttonText}</button></Link>
               </div>
             </div>
           </header>

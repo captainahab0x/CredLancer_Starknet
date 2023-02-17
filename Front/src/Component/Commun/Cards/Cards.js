@@ -1,11 +1,18 @@
 import React from "react";
 import Slider from "react-slick";
-import { cards } from "../../Data/Data";
-import CardsItem from "./CardsItem";
-import "./cards.css";
+import { Link } from "react-router-dom";
+import CardsItems from "./CardsStyle";
+import "./cards.css"
 
 
 const Cards = (props) => {
+    const Data = props.cards.map((data) => {
+        console.log(data);
+        return (
+            <CardsItems button={data.text} issue={data.issue} hours={data.hours} skills={data.Skills} Img={data.Img}>
+            </CardsItems>
+        );
+      });
     const settings = {
         dots: false,
         infinite: true,
@@ -13,6 +20,7 @@ const Cards = (props) => {
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
+        focusOnSelect: true,
         responsive: [
             {
               breakpoint: 1000,
@@ -41,13 +49,19 @@ const Cards = (props) => {
         };
     return (
         <>
-        <div className="CardContainer">
-        <Slider {...settings}>
-              {props.data}
-          </Slider>
+        <div className="SlideContainer">
+        <div style={{display: 'flex', padding: '0px 15px', backgroundColor: "#29116C", marginBottom: '20px', color: "white", justifyContent: "space-between", alignItems:'center'}}>
+                <h1>{props.title}</h1>
+                <Link to={"/SeeAll"} style={{fontSize: '15px'}}>See All</Link>
+            </div>
+            <div style={{margin: '0px 30px 30px 30px'}}>
+            <Slider {...settings}>
+                {Data}
+            </Slider>
+            </div>
         </div>
         </>
     )
-};
+}
 
-export default Cards;
+export default Cards
