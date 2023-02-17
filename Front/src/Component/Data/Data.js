@@ -27,6 +27,7 @@ export const nav = [
         issue: "developer DAO",
         hours: "100",
         Skills: "React Native, Next Js",
+        Img: './Images/LogoCC.svg',
         path: "/",
     },
     {
@@ -34,6 +35,7 @@ export const nav = [
         issue: "developer DAO",
         Skills: "React Native, Cairo",
         hours: "150",
+        Img: './Images/LogoCC.svg',
         path: "/About",
     },
     {
@@ -41,6 +43,7 @@ export const nav = [
         issue: "developer DAO",
         Skills: "Node Js, Next Js",
         hours: "300",
+        Img: './Images/LogoCC.svg',
         path: "/Services",
     },
     {
@@ -48,13 +51,15 @@ export const nav = [
         issue: "developer DAO",
         Skills: "Node Js, Next Js",
         hours: "300",
+        Img: './Images/LogoCC.svg',
         path: "/Services",
     },
     {
-        text: "Manager",
+        text: "Man",
         issue: "developer DAO",
         Skills: "Node Js, Next Js",
         hours: "300",
+        Img: './Images/LogoCC.svg',
         path: "/Services",
     },
   ]

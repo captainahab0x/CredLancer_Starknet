@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Header from "../Commun/Header/header";
-import Footer from "../Commun/Footer/footer";
+import LancerProfile from "../LancerProfile/LancerProfile";
 import Home from "../Homepage/Home";
 import ConnectWallet from "../ConnectWallet/ConnectWallet"
 
@@ -13,6 +12,7 @@ const Page = () => {
         <Route path="/Footer" element={<Footer/>}/>
         <Route path="/Header" element={<Header/>}/>
         <Route path="/ConnectWallet" element={<ConnectWallet/>}/>
+        <Route path="/LancerProfile" element={<LancerProfile/>}/>
       </Routes>
       </BrowserRouter>
     </div>
