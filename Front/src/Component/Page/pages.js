@@ -9,8 +9,6 @@ const Page = () => {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/Footer" element={<Footer/>}/>
-        <Route path="/Header" element={<Header/>}/>
         <Route path="/ConnectWallet" element={<ConnectWallet/>}/>
         <Route path="/LancerProfile" element={<LancerProfile/>}/>
       </Routes>

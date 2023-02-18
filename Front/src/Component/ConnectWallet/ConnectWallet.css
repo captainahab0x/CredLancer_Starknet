@@ -13,7 +13,7 @@
 	transform: rotate(-180deg);
 }
 
-.container_main {
+.container_main2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,8 +37,9 @@
 	position: absolute;
 	width: 680px;
 	height: 535px;
-	left: 31%;
-	top: 20%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 
 	background: #2C2934;
 
@@ -51,14 +52,14 @@
 	box-sizing: border-box;
 
 	position: absolute;
-	width: 680px;
-	height: 50px;
+	width: 100.5%;
+	height: 8%;
 	left: -0.2%;
 	top: 95%;
 
 	background: #E1E1E1;
 
-	border: 2px solid #321975;
+	border: 2px solid #3B2095;
 	transform: rotate(-180deg);
 }
 
@@ -68,8 +69,9 @@
 	position: absolute;
 	width: 680px;
 	height: 535px;
-	left: 32%;
-	top: 18%;
+	left: 51%;
+	top: 49%;
+	transform: translate(-50%, -50%);
 
 	background: #454C73;
 
@@ -82,8 +84,8 @@
 	box-sizing: border-box;
 
 	position: absolute;
-	width: 680px;
-	height: 50px;
+	width: 100.5%;
+	height: 8%;
 	left: -0.2%;
 	top: 95%;
 

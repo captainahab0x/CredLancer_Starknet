@@ -8,9 +8,9 @@ import "./ConnectWallet.css"
 const	ConnectWallet = () => {
 	return (
 		<>
-		<Header/>
+		<Header buttonText="Join us"/>
 		<div className="bgd">
-			<div className="container_main">
+			<div className="container_main2">
 				<div className="rectangle2">
 					<div className="title2"></div>
 				</div>
