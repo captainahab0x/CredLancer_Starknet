@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import  "./header.css"
+import  "./header.css";
+import ConnectWallet from "../../ConnectWallet/ConnectWallet"
 
 const   Header = (props) => {
   const buttonText = props.buttonText;

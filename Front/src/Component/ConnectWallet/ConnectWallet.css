@@ -1,0 +1,151 @@
+.bgd{
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	display: flex;
+
+	background: linear-gradient(180deg, rgba(114, 220, 204, 0.88) 9.38%, rgba(125, 24, 194, 0.88) 42.19%, rgba(125, 24, 194, 0.88) 56.77%, rgba(50, 25, 117, 1) 84.37%);
+	background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	transform: rotate(-180deg);
+}
+
+.container_main2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    background-image: url("../../../public/Images/Planete.svg");
+    background-size: 40% 100%;
+    background-position: right -100px;
+    background-repeat: no-repeat;
+    place-items: right;
+    align-items: flex-start;
+    text-align: center;
+    overflow: hidden;
+    padding: 0px;
+    gap : 90px;
+}
+
+.rectangle1 {
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 680px;
+	height: 535px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	background: #2C2934;
+
+	border: 2px solid #3B2095;
+	box-shadow: 4px 4px 20px rgba(10, 142, 66, 0.43);
+	border-radius: 5px;
+}
+
+.title {
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 100.5%;
+	height: 8%;
+	left: -0.2%;
+	top: 95%;
+
+	background: #E1E1E1;
+
+	border: 2px solid #3B2095;
+	transform: rotate(-180deg);
+}
+
+.rectangle2 {
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 680px;
+	height: 535px;
+	left: 51%;
+	top: 49%;
+	transform: translate(-50%, -50%);
+
+	background: #454C73;
+
+	border: 2px solid #3B2095;
+	box-shadow: 4px 4px 20px rgba(10, 142, 66, 0.43);
+	border-radius: 5px;
+}
+
+.title2 {
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 100.5%;
+	height: 8%;
+	left: -0.2%;
+	top: 95%;
+
+	background: #454C73;
+
+	border: 2px solid #321975;
+	transform: rotate(-180deg);
+}
+
+.Footer1 {
+	position: absolute;
+	bottom: 0%;
+	width:100%;
+}
+
+.rectangle3 {
+	box-sizing: border-box;
+
+	position: absolute;
+	width: 50%;
+	height: 80%;
+	left: 25%;
+	top: 8%;
+
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+}
+
+#welcome {
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	top: 79%;
+
+	font-family: 'Audiowide';
+	font-style: normal;
+	font-weight: 40;
+	font-size: 30px;
+	line-height: 30px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+	transform: rotate(-180deg);
+}
+
+#discord {
+	box-sizing: border-box;
+
+	position:absolute;
+	width: 70%;
+	height: 10%;
+	top: 5%;
+	left: 15%;
+
+	background: #8110BF;
+
+	color: #FFFFFF;
+	text-align: center;
+
+	transform: rotate(-180deg);
+}
